@@ -26,7 +26,7 @@ class TypHintBench
     public function benchWithoutType()
     {
         for ($i = 0; $i < self::ITERATIONS; $i++) {
-            self::withoutType($this->item);
+            self::withoutType($this->array);
         }
     }
 
@@ -49,10 +49,10 @@ class TypHintBench
      * @Iterations(100)
      * @RetryThreshold(1.0)
      */
-    public function benchWithClassType()
+    public function benchWithMixedType()
     {
         for ($i = 0; $i < self::ITERATIONS; $i++) {
-            self::withClassType($this->item);
+            self::withMixedType($this->array);
         }
     }
 
@@ -62,10 +62,10 @@ class TypHintBench
      * @Iterations(100)
      * @RetryThreshold(1.0)
      */
-    public function benchWithMixedType()
+    public function benchWithClassType()
     {
         for ($i = 0; $i < self::ITERATIONS; $i++) {
-            self::withMixedType($this->item);
+            self::withClassType($this->item);
         }
     }
 

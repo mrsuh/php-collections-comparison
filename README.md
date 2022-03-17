@@ -44,19 +44,19 @@ with PHP version 8.1.3, xdebug ❌, opcache ❌
 
 \App\Tests\TypHintBench
 
-    benchWithoutType........................R1 I19 - Mo273.894μs (±0.43%)
-    benchWithArrayType......................R1 I12 - Mo262.648μs (±0.45%)
-    benchWithClassType......................R1 I57 - Mo314.469μs (±0.48%)
-    benchWithMixedType......................R1 I96 - Mo289.568μs (±0.41%)
+    benchWithoutType........................R1 I6 - Mo240.713μs (±0.47%)
+    benchWithArrayType......................R1 I70 - Mo247.663μs (±0.45%)
+    benchWithMixedType......................R2 I59 - Mo249.293μs (±0.54%)
+    benchWithClassType......................R1 I26 - Mo306.533μs (±0.48%)
 
 Subjects: 4, Assertions: 0, Failures: 0, Errors: 0
 +--------------+--------------------+-----+------+-----+-----------+-----------+--------+
 | benchmark    | subject            | set | revs | its | mem_peak  | mode      | rstdev |
 +--------------+--------------------+-----+------+-----+-----------+-----------+--------+
-| TypHintBench | benchWithoutType   |     | 1000 | 100 | 674.272kb | 273.894μs | ±0.43% |
-| TypHintBench | benchWithArrayType |     | 1000 | 100 | 674.272kb | 262.648μs | ±0.45% |
-| TypHintBench | benchWithClassType |     | 1000 | 100 | 674.272kb | 314.469μs | ±0.48% |
-| TypHintBench | benchWithMixedType |     | 1000 | 100 | 674.272kb | 289.568μs | ±0.41% |
+| TypHintBench | benchWithoutType   |     | 1000 | 100 | 674.272kb | 240.713μs | ±0.47% |
+| TypHintBench | benchWithArrayType |     | 1000 | 100 | 674.272kb | 247.663μs | ±0.45% |
+| TypHintBench | benchWithMixedType |     | 1000 | 100 | 674.272kb | 249.293μs | ±0.54% |
+| TypHintBench | benchWithClassType |     | 1000 | 100 | 674.272kb | 306.533μs | ±0.48% |
 +--------------+--------------------+-----+------+-----+-----------+-----------+--------+
 ```
 
