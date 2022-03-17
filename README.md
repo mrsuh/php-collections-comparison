@@ -62,8 +62,8 @@ Subjects: 4, Assertions: 0, Failures: 0, Errors: 0
 
 ### How to reproduce
 ```bash
-git clone mrsuh/php-generics-comparison && cd php-generics-comparison
-docker build -t generics-test-image .
-docker run -it --rm generics-test-image php bin/memory-test.php
-docker run -it --rm generics-test-image php vendor/bin/phpbench run tests --report=aggregate
+git clone git@github.com:mrsuh/php-collections-comparison.git && cd php-collections-comparison
+docker build -t php-collections-comparison-image .
+docker run -it --rm php-collections-comparison-image php bin/memory-test.php
+docker run -it --rm php-collections-comparison-image php vendor/bin/phpbench run tests --report=aggregate
 ```
