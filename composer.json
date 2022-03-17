@@ -1,0 +1,32 @@
+{
+    "name": "acme/phpbench-test",
+    "autoload": {
+        "psr-4": {
+            "App\\": [
+                "cache/",
+                "src/"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+        "ext-json": "*",
+        "mrsuh/php-generics": "^1.0",
+        "mrsuh/php-var-sizeof": "^1.0",
+        "maddhatter/markdown-table": "^1.0",
+        "symfony/process": "^5.4",
+        "phpbench/phpbench": "^1.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "mrsuh/php-generics": true
+        }
+    }
+}
