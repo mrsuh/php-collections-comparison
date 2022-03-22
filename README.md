@@ -6,7 +6,7 @@
 | type                  | var_class_sizeof(bytes) | var_sizeof(bytes) | memory_get_usage(bytes) |
 |-----------------------|-------------------------|-------------------|-------------------------|
 | array(count: 0)       | 0                       | 336               | 0                       |
-| annotation(count: 0)  | 1515                    | 544               | 240                     |
+| psalm(count: 0)       | 1510                    | 544               | 240                     |
 | monomorphic(count: 0) | 1528                    | 544               | 240                     |
 | type-erased(count: 0) | 1512                    | 544               | 240                     |
 
@@ -14,7 +14,7 @@
 | type                    | var_class_sizeof(bytes) | var_sizeof(bytes) | memory_get_usage(bytes) |
 |-------------------------|-------------------------|-------------------|-------------------------|
 | array(count: 100)       | 0                       | 7728              | 12248                   |
-| annotation(count: 100)  | 1515                    | 7936              | 12432                   |
+| psalm(count: 100)       | 1510                    | 7936              | 12432                   |
 | monomorphic(count: 100) | 1528                    | 7936              | 12432                   |
 | type-erased(count: 100) | 1512                    | 7936              | 12432                   |
 
@@ -22,7 +22,7 @@
 | type                     | var_class_sizeof(bytes) | var_sizeof(bytes) | memory_get_usage(bytes) |
 |--------------------------|-------------------------|-------------------|-------------------------|
 | array(count: 1000)       | 0                       | 72464             | 76920                   |
-| annotation(count: 1000)  | 1515                    | 72672             | 77104                   |
+| psalm(count: 1000)       | 1510                    | 72672             | 77104                   |
 | monomorphic(count: 1000) | 1528                    | 72672             | 77104                   |
 | type-erased(count: 1000) | 1512                    | 72672             | 77104                   |
 
@@ -30,9 +30,10 @@
 | type                      | var_class_sizeof(bytes) | var_sizeof(bytes) | memory_get_usage(bytes) |
 |---------------------------|-------------------------|-------------------|-------------------------|
 | array(count: 10000)       | 0                       | 822224            | 1051320                 |
-| annotation(count: 10000)  | 1515                    | 822432            | 1051560                 |
+| psalm(count: 10000)       | 1510                    | 822432            | 1051560                 |
 | monomorphic(count: 10000) | 1528                    | 822432            | 1051560                 |
 | type-erased(count: 10000) | 1512                    | 822432            | 1051560                 |
+
 
 
 ### Speed performance
