@@ -14,7 +14,7 @@ foreach ([0, 100, 1000, 10000] as $count) {
     $tableBuilder = new Builder();
     $tableBuilder->headers(['type', 'var_class_sizeof(bytes)', 'var_sizeof(bytes)', 'memory_get_usage(bytes)']);
     echo '#### Items in collection: ' . $count . PHP_EOL;
-    foreach (['array', 'annotation', 'monomorphic', 'type-erased'] as $item) {
+    foreach (['array', 'psalm', 'monomorphic', 'type-erased'] as $item) {
         if (in_array($item, ['monomorphic', 'type-erased'])) {
             $process = Process::fromShellCommandline(sprintf('composer dump-generics --type=%s', $item));
             $process->mustRun();

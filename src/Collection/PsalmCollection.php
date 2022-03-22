@@ -5,7 +5,7 @@ namespace App\Collection;
 /**
  * @template T
  */
-class AnnotationCollection implements \Iterator
+class PsalmCollection implements \Iterator
 {
     protected \ArrayIterator $iterator;
 
