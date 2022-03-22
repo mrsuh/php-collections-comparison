@@ -34,8 +34,6 @@
 | monomorphic(count: 10000) | 1528                    | 822432            | 1051560                 |
 | type-erased(count: 10000) | 1512                    | 822432            | 1051560                 |
 
-
-
 ### Speed performance
 
 ```bash
