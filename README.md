@@ -6,33 +6,33 @@
 | type                  | var_class_sizeof(bytes) | var_sizeof(bytes) | memory_get_usage(bytes) |
 |-----------------------|-------------------------|-------------------|-------------------------|
 | array(count: 0)       | 0                       | 336               | 0                       |
-| psalm(count: 0)       | 1510                    | 544               | 240                     |
-| monomorphic(count: 0) | 1528                    | 544               | 240                     |
-| type-erased(count: 0) | 1512                    | 544               | 240                     |
+| psalm(count: 0)       | 1,510                   | 544               | 240                     |
+| monomorphic(count: 0) | 1,528                   | 544               | 240                     |
+| type-erased(count: 0) | 1,512                   | 544               | 240                     |
 
 #### Items in collection: 100
 | type                    | var_class_sizeof(bytes) | var_sizeof(bytes) | memory_get_usage(bytes) |
 |-------------------------|-------------------------|-------------------|-------------------------|
-| array(count: 100)       | 0                       | 7728              | 12248                   |
-| psalm(count: 100)       | 1510                    | 7936              | 12432                   |
-| monomorphic(count: 100) | 1528                    | 7936              | 12432                   |
-| type-erased(count: 100) | 1512                    | 7936              | 12432                   |
+| array(count: 100)       | 0                       | 7,728             | 12,248                  |
+| psalm(count: 100)       | 1,510                   | 7,936             | 12,432                  |
+| monomorphic(count: 100) | 1,528                   | 7,936             | 12,432                  |
+| type-erased(count: 100) | 1,512                   | 7,936             | 12,432                  |
 
 #### Items in collection: 1000
 | type                     | var_class_sizeof(bytes) | var_sizeof(bytes) | memory_get_usage(bytes) |
 |--------------------------|-------------------------|-------------------|-------------------------|
-| array(count: 1000)       | 0                       | 72464             | 76920                   |
-| psalm(count: 1000)       | 1510                    | 72672             | 77104                   |
-| monomorphic(count: 1000) | 1528                    | 72672             | 77104                   |
-| type-erased(count: 1000) | 1512                    | 72672             | 77104                   |
+| array(count: 1000)       | 0                       | 72,464            | 76,920                  |
+| psalm(count: 1000)       | 1,510                   | 72,672            | 77,104                  |
+| monomorphic(count: 1000) | 1,528                   | 72,672            | 77,104                  |
+| type-erased(count: 1000) | 1,512                   | 72,672            | 77,104                  |
 
 #### Items in collection: 10000
 | type                      | var_class_sizeof(bytes) | var_sizeof(bytes) | memory_get_usage(bytes) |
 |---------------------------|-------------------------|-------------------|-------------------------|
-| array(count: 10000)       | 0                       | 822224            | 1051320                 |
-| psalm(count: 10000)       | 1510                    | 822432            | 1051560                 |
-| monomorphic(count: 10000) | 1528                    | 822432            | 1051560                 |
-| type-erased(count: 10000) | 1512                    | 822432            | 1051560                 |
+| array(count: 10000)       | 0                       | 822,224           | 1,051,320               |
+| psalm(count: 10000)       | 1,510                   | 822,432           | 1,051,560               |
+| monomorphic(count: 10000) | 1,528                   | 822,432           | 1,051,560               |
+| type-erased(count: 10000) | 1,512                   | 822,432           | 1,051,560               |
 
 ### Speed performance
 

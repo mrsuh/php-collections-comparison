@@ -7,7 +7,7 @@ use Symfony\Component\Process\Process;
 
 function addTableRow(Builder $tableBuilder, string $type, array $output)
 {
-    $tableBuilder->row([$type, $output['class_sizeof'], $output['sizeof'], $output['memory_get_usage']]);
+    $tableBuilder->row([$type, number_format($output['class_sizeof']), number_format($output['sizeof']), number_format($output['memory_get_usage'])]);
 }
 
 foreach ([0, 100, 1000, 10000] as $count) {
